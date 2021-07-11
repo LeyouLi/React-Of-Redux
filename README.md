@@ -19,7 +19,7 @@
 - 创建 Store 状态容器
 `const store = Redux.createStore(reducer)`
 - 创建用于处理状态的 reducer 函数
-`function reducer(state = iniyialState, action) {}`
+`function reducer(state = initialState, action) {}`
 - 获取状态
 `store.getState()`
 - 订阅状态
