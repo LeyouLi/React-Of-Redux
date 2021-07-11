@@ -14,3 +14,15 @@
 - View : 视图，HTML页面
 - Actions : 对象，描述对对象进行怎样的操作
 - Reducers : 函数，操作状态并返回新的状态
+
+#### Redux 核心 API
+- 创建 Store 状态容器
+`const store = Redux.createStore(reducer)`
+- 创建用于处理状态的 reducer 函数
+`function reducer(state = iniyialState, action) {}`
+- 获取状态
+`store.getState()`
+- 订阅状态
+`store.subscribe(() => {})`
+- 触发 action
+`store.dispatch({ type: 'actionName' })`
