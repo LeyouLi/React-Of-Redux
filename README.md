@@ -16,6 +16,7 @@
 - Reducers : 函数，操作状态并返回新的状态
 
 #### Redux 核心 API
+
 - 创建 Store 状态容器
 `const store = Redux.createStore(reducer)`
 - 创建用于处理状态的 reducer 函数
