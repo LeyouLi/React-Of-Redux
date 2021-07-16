@@ -1,7 +1,12 @@
+import AlertModal from "./components/AlertModal";
+import Counter from './components/Counter';
 
 function App() {
   return (
-    <div>start</div>
+    <div>
+      <Counter/>
+      <AlertModal/>
+    </div>
   );
 }
 
