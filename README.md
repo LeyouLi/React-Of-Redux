@@ -27,3 +27,9 @@
 `store.subscribe(() => {})`
 - 触发 action
 `store.dispatch({ type: 'actionName' })`
+
+#### Redux 常用中间件
+
+- redux-thunk
+- redux-saga
+- redux-action

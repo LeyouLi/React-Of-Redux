@@ -4,7 +4,7 @@ import { bindActionCreators } from 'redux';
 import * as alertModalActions from '../store/action/alertModal.action';
 
 function AlertModal(props) {
-  const { showState, show, hide } = props;
+  const { showState, show, hide, show_async } = props;
   const styles = {
     width: 200,
     height: 200,
@@ -19,6 +19,7 @@ function AlertModal(props) {
 
   return <div>
     <button onClick={show}>显示</button>
+    <button onClick={show_async}>显示(async)</button>
     <button onClick={hide}>隐藏</button>
     <div style={styles}></div>
   </div>
