@@ -22,7 +22,7 @@ function Counter(props) {
 */
 
 const mapStateToProps = state => ({
-  count: state.count,
+  count: state.counter.count,
 })
 
 const mapDispatchToProps = dispatch => bindActionCreators(couterActions, dispatch);

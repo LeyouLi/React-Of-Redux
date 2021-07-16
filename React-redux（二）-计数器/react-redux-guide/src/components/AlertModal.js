@@ -25,7 +25,7 @@ function AlertModal(props) {
 }
 
 const mapStateToProps = state => ({
-  showState: state.show,
+  showState: state.alertModal.show,
 });
 
 const mapDispatchToProps = dispatch => bindActionCreators(alertModalActions, dispatch);
