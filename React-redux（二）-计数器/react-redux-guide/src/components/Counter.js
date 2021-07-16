@@ -4,11 +4,11 @@ import * as couterActions from '../store/action/counter.action';
 import { bindActionCreators } from 'redux';
 
 function Counter(props) {
-  console.log(props);
-  const { count, increment, decrement } = props;
+  const { count, increment, decrement, increment_async } = props;
   return <>
     <div>
       <button onClick={() => increment(5)}>+</button>
+      <button onClick={() => increment_async(5)}>+(async)</button>
       <span>{ count }</span> 
       <button onClick={() => decrement(5)}>-</button>
     </div>
